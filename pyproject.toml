@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.poetry]
+name = "depth_anything_v2"
+version = "0.0.2"
+description = "Depth Anything V2"
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+torch = "*"
+torchvision = "*"
+gradio_imageslider = "*"
+gradio = "*"
+matplotlib = "*"
+opencv-python = "*"
